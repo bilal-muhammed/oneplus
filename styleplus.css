@@ -1,0 +1,396 @@
+body {
+    margin: 0%;
+    font-family: 'OnePlus Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+}
+
+.bg-1 {
+    background-image: url(images/maindivimg.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
+.div1 {
+
+
+
+    display: flex;
+
+}
+
+#d1iv {
+
+    height: 60px;
+    width: 20%;
+}
+
+#divi {
+    margin: 218px 302px;
+}
+
+#ban1 {
+    color: whitesmoke;
+    font-size: 24px;
+
+}
+
+#banin {
+    color: whitesmoke;
+    font-size: 16px;
+
+}
+
+#d2iv {
+    height: 60px;
+    width: 60%;
+    color: white;
+
+}
+
+#d3iv {
+    height: 60px;
+    width: 20%;
+    color: white;
+    font-size: 23px;
+    text-align: right;
+
+
+
+}
+
+#nav {
+    list-style: none;
+    display: flex;
+
+}
+
+.fstli {
+    color: white;
+    padding: 3px 18px 0px 27px;
+    font-size: 15px;
+    font-style: 'Open Sans', sans-serif;
+}
+
+#bt1 {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 18px;
+    padding: 8px 13px;
+    text-align: center;
+    border-color: whitesmoke;
+    border-radius: 4px;
+
+}
+
+#bt2 {
+    background-color: transparent;
+    color: rgb(250, 248, 248);
+    font-size: 18px;
+    padding: 8px 13px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0px 16px;
+    border-color: whitesmoke;
+
+
+}
+
+.div2 {
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.divi2 {
+    background-color: white;
+    width: 16.6%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divi2 img:hover {
+    transform: scale(1.05);
+}
+
+/* products */
+.new {
+    color: red;
+    margin: 0;
+    font-size: 14px;
+}
+
+.prnam {
+    margin-bottom: 9px;
+    font-size: 15px;
+}
+
+#trhdiv {
+    background-color: white;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#div3 {
+    height: 100%;
+    width: 423px;
+    background-image: url(images/div3img.jpg);
+}
+
+div#div3:hover {
+    transform: scale(1.03);
+}
+
+#divi3 {
+    height: 100%;
+    width: 866px;
+    background-image: url(images/div3s2img.jpg);
+}
+
+div#divi3:hover {
+    transform: scale(1.02);
+}
+
+.div3_price {
+    text-align: center;
+    padding: 33px 0px 0px 0px;
+}
+
+#div4 {
+    background-color: white;
+    height: 600px;
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+
+.div4_1 {
+    height: 100%;
+    width: 423px;
+    position: relative;
+
+
+}
+
+.div4_1 img:hover {
+    transform: scale(1.03);
+}
+
+.div4_price {
+    text-align: center;
+    position: absolute;
+    top: 6%;
+    left: 24%;
+}
+
+#div5 {
+    background-color: white;
+    height: 568px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.divi5 {
+    width: 45%;
+    height: 80%;
+    position: relative;
+}
+
+.div5_price {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 6%;
+    left: 24%;
+}
+
+.div5_2_price {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 6%;
+    left: 40%;
+
+}
+
+#div6 {
+    background-color: white;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: -90px 0 0px 0px;
+}
+
+.divi6 {
+    width: 45%;
+    height: 80%;
+    position: relative;
+}
+
+.div6_price {
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 37%;
+
+}
+
+.div6_2price {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+
+}
+
+#div7 {
+    background-color: white;
+    height: 290px;
+    width: 100%;
+    margin: -43px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.div7_1 {
+    width: 32%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;flex-direction: column;
+
+}
+.div7_dtl{
+    text-align: center;font-size: 17px;
+    color: #666;
+}
+#div8{
+    height: 400px;width: 100% ;
+    background-image: url(images/div8_bgim.jpg);
+    display: flex;justify-content: center;
+    
+}
+#div8_1{
+    width: 40%;height: 400px;
+    background-color:transparent;
+    color: white;
+    text-align: center;
+}
+
+#inpt{
+    width: 363px;
+    height: 30px;
+    margin: 44px 0 0px 0px;
+    background-color: black;
+    color:white;
+    font-size: 18px;
+    border-style: ridge;
+    border-radius: 0%;
+
+}
+#div9{
+    height: 500px;width: 100%;
+    background-color: #666;
+    display: flex;
+}
+.div9_li{
+    height: 100%;
+    width: 20%;
+    background-color: white;
+}
+.ul9{
+    list-style: none;
+}
+h4{
+    color: black;
+}
+li{
+    margin: 0 0 20px 0;
+    color: #666;
+    font-size: 16px;
+}
+#div10{
+    background-color: white;
+    display: flex;
+    width: 100%;height: 80px;
+}
+.div10_1{
+    background-color: white;
+    height: 80%;width: 50%;
+}
+.div10_2{
+    background-color: white;
+    height: 80%;width: 25%;
+}
+.div10_3{
+    background-color:white;
+    height: 80%;width: 25%;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lis2 li{
+    color: rgb(39, 35, 35);
+    list-style: none;
+    display: inline;
+    font-size: smaller;
+}
+#div11{
+    background-color:white;
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+#divi11{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: normal;
+}
+#div11_2{background-color:white;
+    height: 60px;width: 20%;
+    
+}
+#div11_3{background-color: white;
+    height: 60px;width: 60%;
+
+}
+#div12{
+    background-color:white;
+    height: 80px;width: 100%;
+}
+#div11_lst{
+    margin: 28px 0 0 24px;
+}
+#div11_lst li{
+    list-style: none;
+    color: black;
+    font-size:14px;
+    display: inline;
+    border-right-style: ridge;
+    border-color: grey;
+    padding: 0 10px;
+}
